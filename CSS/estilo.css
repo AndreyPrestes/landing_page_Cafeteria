@@ -1,0 +1,272 @@
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+#conteiner {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ----------- LOGO /  MENU -------------- */
+
+
+header {
+    background-image: url(fundo01.png);
+    height: 770px;
+    background-color: #F2E8DF;
+}
+
+.secao-menu {
+    height: 140px;
+    background-color: #F2E8DF;
+    opacity: 0.8;
+}
+
+/********* Logo *********** */
+
+header .logo01 {
+    float: left;
+}
+
+header .logo01 img {
+    width: 250px;
+}
+
+/********* Logo *********** */
+
+/********* menu principal *********** */
+
+header .secao-menu-principal ul li {
+
+    display: inline-block;
+    list-style-type: none;
+    margin: 40px 20px;
+    font-size: 30px;
+}
+
+header .secao-menu-principal ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* header .secao-menu-principal ul li a:hover,
+header .secao-menu-principal ul li a:active {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    text-decoration: none;
+} */
+
+/********* menu principal *********** */
+
+/********* menu redes social *********** */
+.secao-redes-social {
+    float: right;
+    margin: -100px 90px;
+}
+
+.secao-redes-social img {
+    width: 40px;
+    margin: 0px 10px;
+}
+
+/********* menu redes social *********** */
+
+/* ----------- LOGO /  MENU -------------- */
+
+
+/* -------------Informações----------------- */
+
+#informacoes p {
+    width: 500px;
+    height: 220px;
+    margin: 25px 40px;
+    font-size: 20px;
+    /* border-radius: 25px; */
+    text-align: center;
+    color: black;
+    background-color: #F2E8DF;
+    opacity: 0.8;
+}
+
+/* -------------Informações----------------- */
+
+
+/* ------------Comentarios------------- */
+.secao-comentarios {
+    height: 420px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: #F2E8DF;
+}
+
+.comentarios {
+    flex-direction: column;
+    margin: 50px;
+}
+
+.secao-comentarios .comentarios .img figure {
+    width: 100px;
+    margin: 0px 36%;
+}
+
+.secao-comentarios .comentarios figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.secao-comentarios .name span {
+    line-height: 50px;
+}
+
+/* ------------Comentarios------------- */
+
+
+
+/* ********* FORMULARIO *********** */
+
+/* ----------secao_cafes--------------- */
+#sesao-formulario .secao_cafes .sesao-tipo-cafe{
+    margin: 0px 160px;
+    font-size: 25px;
+    width: 400px;
+}
+
+#sesao-formulario .secao-cafes-img{
+    padding: 0px 140px;
+    display: flex; 
+}
+
+#sesao-formulario .secao-cafes-img figure img{
+    margin: 30px 10px;
+    width: 80px;
+}
+
+#sesao-formulario .secao_cafes .secao-cafes-img p{
+    width: 10px;
+    margin: -30px 0px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+
+/* ----------secao_cafes--------------- */
+h2 {
+    font-family:'Poppins';
+    text-align: center;
+    padding: 20px 0px;
+    
+}
+
+#sesao-formulario {
+    height: 420px;
+    padding:70px 0px;
+    background-color: #F2E8DF;
+}
+
+.secao-cadastro{
+    width: 300px;
+    height: 250px;
+    float: right;
+    margin: -310px 150px;
+    border-radius: 8px;
+    background-color: #f1d7c1;
+}
+
+
+input {
+    width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 11px;
+    background-color: #F2E8DF;
+    
+}
+
+#nome, #e-mail, #endereco, #telefone, #enviar {
+    margin: 0px 50px;
+    text-align: center;
+}
+
+#sesao-formulario #enviar {
+    width: 60px;
+    margin-left: 107%;
+}
+
+/* ********* FORMULARIO *********** */
+
+/* -------------outras lojas ------------ */
+
+#secao-outras-lojas{
+    height: 550px;
+    background-color: #F2E8DF;
+    
+}
+
+#secao-outras-lojas h3{
+    width: 620px;
+    color: rgb(10, 10, 10);
+    margin: 0px 280px;
+    padding: 20px;
+
+}
+
+#secao-outras-lojas figure img{
+    width: 300px;  
+    margin: 0px 50px;
+}
+iframe{
+    border: 1px;
+    margin: 0px 50px;    
+}
+#secao-outras-lojas .loja_canoas{
+    float: left;
+    
+}
+
+#secao-outras-lojas .loja_porto_alegre{
+    float: left;
+}
+
+#secao-outras-lojas .loja_sao_paulo{
+    float: left;
+}
+
+#secao-outras-lojas p{
+    text-align: center;
+}
+
+/* -------------outras lojas ------------ */
+
+/* ------------footer----------------- */
+
+footer {
+    height: 180px;
+    background-color: #f1d7c1;
+}
+
+footer .logofooter img{
+    width: 300px;
+}
+footer span{
+    margin: -140px 70% 0px 10px;
+    float: right;
+    
+}
+
+footer p{
+    margin: -110px 46% 0px 10px;
+    float: right;
+}
+footer .cartoes img{
+    margin: -130px 10% 0px 10px;
+    float: right;
+    width: 300px;
+}
+
+/* ------------footer----------------- */

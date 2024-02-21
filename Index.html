@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Coffe Point</title>
+</head>
+
+<body>
+    <div id="conteiner">
+        <!-- *************** inicio menu ******************** -->
+        <header>
+            <div class="secao-menu">
+
+                <figure class="logo01">
+                    <img src="imgs/logo.png" alt="logo">
+                </figure>
+
+                <nav class="secao-menu-principal">
+                    <ul>
+                        <li><a href="#informacoes">História</a></li>
+                        <li><a href="#secao-comentarios">Comentarios</a></li>
+                        <li><a href="#fotos">Fotos</a></li>
+                        <li><a href="#sesao-formulario">Cadastro</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="secao-redes-social">
+
+                    <a href=""><img src="imgs/facebook1.png" alt="facebook"></a>
+                    <a href=""><img src="imgs/instagram1.png" alt="instagram"></a>
+                    <a href=""><img src="imgs/whatsapp1.png" alt="whatsapp"></a>
+                </nav>
+            </div>
+
+
+            <article id="informacoes">
+                <p>A loja principal da Ponte Coffee tornou-se um local de encontro para a comunidade, onde
+                    as pessoas se reuniam para desfrutar de uma xícara de café fresco e compartilhar histórias. A
+                    atmosfera acolhedora e o aroma inconfundível atraíram clientes de toda a região, transformando a
+                    Ponte Coffee em uma marca reconhecida e apreciada. </p>
+            </article>
+        </header>
+        <!-- *************** fim menu ******************** -->
+
+        <!-- *************** comentarios ******************** -->
+        <section class="secao-comentarios" id="secao-comentarios">
+            <div class="comentarios">
+                <div class="img">
+                    <figure>
+                        <img src="Clientes/AnaCarolina.jpeg" alt="Cliente Ana">
+                    </figure>
+                </div>
+                <div class="name">
+                    <span>Ana Carolina</span>
+                </div>
+                <div class="resume">
+                    <p>"Descobri o Ponte Coffee recentemente e estou simplesmente encantada! O sabor dos grãos é
+                        incomparável, e a atmosfera na loja é tão acolhedora. Agora, todas as minhas manhãs começam com
+                        uma xícara de Ponte Coffee. É um verdadeiro deleite!"</p>
+                </div>
+            </div>
+            <div class="comentarios">
+                <div class="img">
+                    <figure>
+                        <img src="Clientes/RafaelSilva.png" alt="Cliente Rafael">
+                    </figure>
+                </div>
+                <div class="name">
+                    <span>Rafael Silva</span>
+                </div>
+                <div class="resume">
+                    <p>"Como amante de café, posso dizer que o Ponte Coffee elevou minha experiência a um nível
+                        completamente novo. A qualidade dos grãos é evidente a cada gole. Além disso, saber que estão
+                        comprometidos com práticas sustentáveis e apoiam comunidades locais só torna a experiência ainda
+                        mais especial."</p>
+                </div>
+            </div>
+            <div class="comentarios">
+                <div class="img">
+                    <figure>
+                        <img src="Clientes/MarianaOliveira.png" alt="Cliente Mariana">
+                    </figure>
+                </div>
+                <div class="name">
+                    <span>Marina Oliveira</span>
+                </div>
+                <div class="resume">
+                    <p>"O café Ponte é uma verdadeira obra-prima! A combinação perfeita de sabor e ética empresarial.
+                        Saber que estão comprometidos com a sustentabilidade torna a minha xícara de café ainda mais
+                        especial. Recomendo a todos os amantes de café."</p>
+                </div>
+            </div>
+        </section>
+        <!-- *************** fim comentarios ******************** -->
+
+        <!-- Bootstrap "Carousel" -->
+        <aside id="fotos">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-blockw- 100" src="fotos_do_local/Primeira_carrossel.png" alt="Primeiro Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-blockw- 100" src="fotos_do_local/Segunda_carrossel.png" alt="Segundo Slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-blockw- 100" src="fotos_do_local/Terceira_carrossel.png" alt="Terceiro Slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                  </div>
+        </aside>
+
+
+
+        <!-- *************** Inicio formulario ******************** -->
+        <section id="sesao-formulario">
+
+            <aside class="secao_cafes">
+                <p class="sesao-tipo-cafe">Conheça os nossos tipos de café vendidos online e se tiver interesse preencha
+                    o formulário ao lado</p>
+
+                <div class="secao-cafes-img">
+
+                    <figure>
+                        <img src="Cafes/LittleCraftPaperBagWithWhiteLabel1.png"
+                            alt="Cafes/LittleCraftPaperBagWithWhiteLabel1.png">
+                        <p>Café Lotus</p>
+                    </figure>
+
+                    <figure><img src="Cafes/LittleCraftPaperBagWithWhiteLabel1.png"
+                            alt="Cafes/LittleCraftPaperBagWithWhiteLabel1.png">
+                        <p>Café Lotus</p>
+                    </figure>
+
+                    <figure><img src="Cafes/LittleCraftPaperBagWithWhiteLabel1.png"
+                            alt="Cafes/LittleCraftPaperBagWithWhiteLabel1.png">
+                        <p>Café Lotus</p>
+                    </figure>
+
+
+                    <figure><img src="Cafes/LittleCraftPaperBagWithWhiteLabel1.png"
+                            alt="Cafes/LittleCraftPaperBagWithWhiteLabel1.png">
+                        <p>Café Lotus</p>
+                    </figure>
+
+                </div>
+            </aside>
+
+            <form name="cadastro" action="cadastro.html" method="post">
+                <fieldset class="secao-cadastro">
+
+                    <h2>Formulário</h2>
+
+                    <label>
+                        <input type="text" id="nome" placeholder="Nome">
+                    </label>
+                    <label>
+                        <input type="email" id="e-mail" placeholder="E-mail">
+                    </label>
+                    <label>
+                        <input type="text" id="endereco" placeholder="Endereço">
+                    </label>
+                    <label>
+                        <input type="tel" id="telefone" placeholder="Telefone">
+                    </label>
+                    <label>
+                        <input type="submit" id="enviar">
+                    </label>
+                </fieldset>
+            </form>
+        </section>
+        <!-- *************** FIM formulario ******************** -->
+
+        <aside id="secao-outras-lojas">
+
+            <h3>Conheça a nossa unidade mais perto do você</h3>
+            <div class="loja_canoas">
+                <figure>
+                    <img src="Lojas/Loja_canoas.jpg" alt="loja_canoas">
+                </figure>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110662.56809046672!2d-51.26192685626969!3d-29.915992635892643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197aa8021e5571%3A0xd0de460f7518f586!2sCanoas%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1704853572181!5m2!1spt-BR!2sbr"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Coffe Point canos <br> Endereço: Rua machado N:230 <br> Telefone: (51) 99000-5555</p>
+            </div>
+
+            <div class="loja_porto_alegre">
+                <figure>
+                    <img src="Lojas/Loja_porto_alegre.jpg" alt="loja_porto_alegre">
+                </figure>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110465.67811509408!2d-51.22034592871648!3d-30.09268441838944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199cd2566acb1d%3A0x603111a89f87e91f!2sPorto%20Alegre%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1704853887801!5m2!1spt-BR!2sbr"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Nova loja: Coffe Point Porto Alegre<br>Endereço: Baixa Augusta N:29<br>Telefone: (11) 93333-8888
+                </p>
+            </div>
+
+            <div class="loja_sao_paulo">
+                <figure>
+                    <img src="Lojas/Loja_sao_paulo.jpg" alt="loja_sao_paulo">
+                </figure>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.3953866813!2d-46.92494284616311!3d-23.681434658029747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1704853958600!5m2!1spt-BR!2sbr"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Nova loja: Coffe Point São Paulo <br>Endereço: Rua Padre Chagas N:309<br> Telefone: (51) 92222-6666
+                </p>
+            </div>
+
+        </aside>
+
+        
+        <footer>
+            <figure class="logofooter">
+                <img src="imgs/logo.png" alt="logofooter">
+            </figure>
+            <span>Contato</span>
+            <p>Telefone: 97777-3333 <br> E-mail: CoffePoint@Cafeteria.com <br>Endereço:R. Gen. Lima e Silva, 232 -
+                Cidade Baixa <br>Porto Alegre-RS-Brasil</p>
+
+            <figure class="cartoes">
+                <img src="Cartoes/Cartoes.png" alt="cartoes">
+            </figure>
+
+        </footer>
+
+        <!-- IMPORTAÇÃO DAS BIBLITOECAS DE JAVA SCRIPT  -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <!-- IMPORTAÇÃO DAS BIBLITOECAS DE JAVA SCRIPT  -->
+
+
+    </div>
+</body>
+
+</html>
